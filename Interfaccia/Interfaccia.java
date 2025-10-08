@@ -60,9 +60,5 @@ public class Interfaccia{
 		finestra.setVisible(true);
 		finestra.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
-	
-	public boolean IsQuad() {
-		return true;
-	}
-
 }
+
