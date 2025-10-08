@@ -10,8 +10,6 @@ import javax.swing.JTextArea;
 
 public class Interfaccia{
 	
-	boolean isquad; //boleano per capire se la matrice è quadrata o meno;
-	
 	public static void main(String[] args) {
 		JFrame finestra = new JFrame("Calcolatrice per matrici");
 		finestra.setLayout(new FlowLayout());
@@ -66,4 +64,5 @@ public class Interfaccia{
 	public boolean IsQuad() {
 		return true;
 	}
+
 }
